@@ -1,0 +1,10 @@
+Description:
+    This generator will install the necessary migrations to create the tables needed
+    to be filled by `rails correios:scrap_cities_and_ufs_ceps`
+
+Example:
+    rails generate correios:install
+
+    This will create:
+        db/migrate/MIGRATION_VERSION_correios_create_correios_find_cep_cities.rb
+        db/migrate/MIGRATION_VERSION_create_correios_find_cep_ufs.rb
